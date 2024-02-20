@@ -1,6 +1,7 @@
 import Index from "./components/Button/Index";
 import ScrollText from "./components/ScrollText/Index";
 import TextAnim from "./components/TextAnim/Index";
+import TextRotate from "./components/TextRotate/Index";
 import TextScroll from "./components/TextScroll/Index";
 import Works from "./components/Works/Index";
 
@@ -13,6 +14,7 @@ function App() {
       <TextScroll />
       <Works />
       <Index />
+      <TextRotate />
     </div>
   );
 }
